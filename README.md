@@ -21,8 +21,6 @@ This project demonstrates various types of **Action Results** available in ASP.N
 
 - `ContentResult`
 - `FileContentResult`
-- `FileStreamResult`
-- `FilePathResult`
 - `EmptyResult`
 - `JavaScriptResult`
 - `JsonResult`
@@ -60,8 +58,6 @@ The `Index.cshtml` view provides links to all action methods. Each one demonstra
 
 - `/Demo/ShowContent` → Returns plain text (`ContentResult`)
 - `/Demo/ShowFile` → Returns downloadable file (`FileContentResult`)
-- `/Demo/ShowFileStream` → Returns streamed file content (`FileStreamResult`)
-- `/Demo/ShowFilePath` → Returns file from server path (`FilePathResult`)
 - `/Demo/ShowEmpty` → Returns no content (`EmptyResult`)
 - `/Demo/ShowJavaScript` → Runs JavaScript in browser (`JavaScriptResult`)
 - `/Demo/ShowJson` → Returns JSON data (`JsonResult`)
