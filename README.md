@@ -101,7 +101,7 @@ The `Index.cshtml` view provides links to all action methods. Each one demonstra
 ![image](https://github.com/user-attachments/assets/182a86a1-26d3-4ac8-b600-6e46d835b81b)
 
 ## HTTPStatusCode Result 
-![image](https://github.com/user-attachments/assets/02e5e0c7-cafb-45a8-842e-e007058a4bde
+![image](https://github.com/user-attachments/assets/02e5e0c7-cafb-45a8-842e-e007058a4bde)
 
 ## View Result
 ![image](https://github.com/user-attachments/assets/fb2ee979-b0c8-404a-b387-71ce04da529b)
