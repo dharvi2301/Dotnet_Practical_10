@@ -126,6 +126,35 @@ The action method `Now()` in `HomeController` returns the current server time as
 
 ![image](https://github.com/user-attachments/assets/6a3b1097-b9b4-45d8-961c-814e5a688ba1) ![image](https://github.com/user-attachments/assets/8d0051f1-85fa-4188-b88a-07890d6ae43c)
 
+# Test 4 - Exception Filter Demo - ASP.NET MVC
+
+This project demonstrates how to create and use a **custom exception filter** in an ASP.NET MVC application to handle runtime errors like `DivideByZeroException`.
+
+## 📌 Features
+
+- Custom Exception Filter implementation
+- Graceful error handling
+- Error view rendering instead of crashing
+- Easy to extend for global exception handling
+
+---
+
+## 📁 Project Structure
+ExceptionFilterDemo/ │ ├── Controllers/ │ └── HomeController.cs │ ├── Filters/ │ └── CustomExceptionFilter.cs │ ├── Views/ │ ├── Home/ │ │ └── Index.cshtml (optional) │ └── Shared/ │ └── Error.cshtml │ ├── App_Start/ │ └── FilterConfig.cs │ └── Global.asax
+
+## 🚀 How to Run
+
+1. Open the solution in **Visual Studio**
+2. Build the project
+3. Run the application
+4. Navigate to `/Home/Index`
+5. The action will throw a `DivideByZeroException`, and you'll be redirected to a user-friendly error page.
+
+## Final Output
+![image](https://github.com/user-attachments/assets/6e6a078b-1c75-49a8-89db-0c31156dd456) ![image](https://github.com/user-attachments/assets/6112e7a1-d63b-4ad8-837d-c52efbac5a20)
+
+
+
 
 
 
