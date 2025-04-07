@@ -15,7 +15,7 @@ Then the output should display:
 
 ![image](https://github.com/user-attachments/assets/35fbf1c5-2c44-47cc-898c-c6e5c6f34809)
 
-# ASP.NET MVC ActionResult Demo
+# # Test 2 - ASP.NET MVC ActionResult Demo
 
 This project demonstrates various types of **Action Results** available in ASP.NET MVC, such as:
 
@@ -69,7 +69,6 @@ The `Index.cshtml` view provides links to all action methods. Each one demonstra
 - `/Demo/ShowRedirectToRoute` → Redirects to Index (`RedirectToRouteResult`)
 - `/Demo/ShowHttpStatus` → Returns custom status code (`HttpStatusCodeResult`)
 - `/Demo/ShowView` → Loads a view (`ViewResult`)
-- `/Demo/ShowPartialView` → Returns a partial view (`PartialViewResult`)
 
 ---
 
