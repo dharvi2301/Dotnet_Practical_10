@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "ActionResult Demo";
+}
+
+<h2>ActionResult Demo</h2>
+<ul>
+    <li><a href="@Url.Action("ShowContent")">ContentResult</a></li>
+    <li><a href="@Url.Action("ShowFile")">FileContentResult</a></li>
+    <li><a href="@Url.Action("ShowEmpty")">EmptyResult (will show nothing)</a></li>
+    <li><a href="@Url.Action("ShowJavaScript")">JavaScriptResult (runs JS)</a></li>
+    <li><a href="@Url.Action("ShowJson")">JsonResult</a></li>
+    <li><a href="@Url.Action("ShowRedirect")">RedirectResult</a></li>
+    <li><a href="@Url.Action("ShowRedirectToRoute")">RedirectToRouteResult</a></li>
+    <li><a href="@Url.Action("ShowHttpStatus")">HttpStatusCodeResult</a></li>
+    <li><a href="@Url.Action("ShowView")">ViewResult</a></li>
+</ul>
