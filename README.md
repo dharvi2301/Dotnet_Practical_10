@@ -21,8 +21,6 @@ This project demonstrates various types of **Action Results** available in ASP.N
 
 - `ContentResult`
 - `FileContentResult`
-- `FileStreamResult`
-- `FilePathResult`
 - `EmptyResult`
 - `JavaScriptResult`
 - `JsonResult`
@@ -34,7 +32,7 @@ This project demonstrates various types of **Action Results** available in ASP.N
 ---
 
 ## 📂 Project Structure
-/Controllers └── DemoController.cs /Views └── /Demo ├── Index.cshtml ├── CustomView.cshtml └── _PartialDemo.cshtml
+/Controllers └── DemoController.cs /Views └── /Demo ├── Index.cshtml ├── CustomView.cshtml 
 
 
 ---
@@ -60,8 +58,6 @@ The `Index.cshtml` view provides links to all action methods. Each one demonstra
 
 - `/Demo/ShowContent` → Returns plain text (`ContentResult`)
 - `/Demo/ShowFile` → Returns downloadable file (`FileContentResult`)
-- `/Demo/ShowFileStream` → Returns streamed file content (`FileStreamResult`)
-- `/Demo/ShowFilePath` → Returns file from server path (`FilePathResult`)
 - `/Demo/ShowEmpty` → Returns no content (`EmptyResult`)
 - `/Demo/ShowJavaScript` → Runs JavaScript in browser (`JavaScriptResult`)
 - `/Demo/ShowJson` → Returns JSON data (`JsonResult`)
@@ -105,6 +101,66 @@ The `Index.cshtml` view provides links to all action methods. Each one demonstra
 
 ## View Result
 ![image](https://github.com/user-attachments/assets/fb2ee979-b0c8-404a-b387-71ce04da529b)
+
+# Test 3 - OutputCache Demo - ASP.NET MVC
+
+This project demonstrates the use of the `OutputCache` filter in an ASP.NET MVC application. The output of a controller action is cached for **5 minutes**, and the action returns the **current date and time** as a string.
+
+## 🧪 Objective
+
+Showcase how the `OutputCache` attribute can cache the result of an action method to improve performance and reduce server load.
+
+## 🔧 Technologies Used
+
+- ASP.NET MVC (.NET Framework)
+- C#
+- Razor Views (optional)
+- Visual Studio
+
+## 🚀 How It Works
+
+The action method `Now()` in `HomeController` returns the current server time as a string. The `[OutputCache]` attribute caches this output for 5 minutes (300 seconds).
+
+## The below ss is when i started my project along with system time
+![image](https://github.com/user-attachments/assets/0de5445f-5302-49a2-a6ac-94e8c0f41ace) ![image](https://github.com/user-attachments/assets/bb555a12-080a-4381-94a1-fef8e5fb5b96)
+
+![image](https://github.com/user-attachments/assets/6a3b1097-b9b4-45d8-961c-814e5a688ba1) ![image](https://github.com/user-attachments/assets/8d0051f1-85fa-4188-b88a-07890d6ae43c)
+
+# Test 4 - Exception Filter Demo - ASP.NET MVC
+
+This project demonstrates how to create and use a **custom exception filter** in an ASP.NET MVC application to handle runtime errors like `DivideByZeroException`.
+
+## 📌 Features
+
+- Custom Exception Filter implementation
+- Graceful error handling
+- Error view rendering instead of crashing
+- Easy to extend for global exception handling
+
+---
+
+## 📁 Project Structure
+ExceptionFilterDemo/ │ ├── Controllers/ │ └── HomeController.cs │ ├── Filters/ │ └── CustomExceptionFilter.cs │ ├── Views/ │ ├── Home/ │ │ └── Index.cshtml (optional) │ └── Shared/ │ └── Error.cshtml │ ├── App_Start/ │ └── FilterConfig.cs │ └── Global.asax
+
+## 🚀 How to Run
+
+1. Open the solution in **Visual Studio**
+2. Build the project
+3. Run the application
+4. Navigate to `/Home/Index`
+5. The action will throw a `DivideByZeroException`, and you'll be redirected to a user-friendly error page.
+
+## Final Output
+![image](https://github.com/user-attachments/assets/6e6a078b-1c75-49a8-89db-0c31156dd456) ![image](https://github.com/user-attachments/assets/6112e7a1-d63b-4ad8-837d-c52efbac5a20)
+
+
+
+
+
+
+
+
+
 
 
 
