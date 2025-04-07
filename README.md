@@ -124,6 +124,9 @@ The action method `Now()` in `HomeController` returns the current server time as
 ## The below ss is when i started my project along with system time
 ![image](https://github.com/user-attachments/assets/0de5445f-5302-49a2-a6ac-94e8c0f41ace) ![image](https://github.com/user-attachments/assets/bb555a12-080a-4381-94a1-fef8e5fb5b96)
 
+![image](https://github.com/user-attachments/assets/6a3b1097-b9b4-45d8-961c-814e5a688ba1) ![image](https://github.com/user-attachments/assets/8d0051f1-85fa-4188-b88a-07890d6ae43c)
+
+
 
 
 
