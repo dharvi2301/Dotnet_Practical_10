@@ -15,7 +15,7 @@ Then the output should display:
 
 ![image](https://github.com/user-attachments/assets/35fbf1c5-2c44-47cc-898c-c6e5c6f34809)
 
-# # Test 2 - ASP.NET MVC ActionResult Demo
+# Test 2 - ASP.NET MVC ActionResult Demo
 
 This project demonstrates various types of **Action Results** available in ASP.NET MVC, such as:
 
