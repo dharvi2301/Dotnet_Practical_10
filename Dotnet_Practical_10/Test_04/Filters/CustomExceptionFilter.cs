@@ -13,7 +13,6 @@ namespace Test_04.Filters
             // Check if the exception is already handled
             if (!filterContext.ExceptionHandled)
             {
-                // Log the exception here (optional)
 
                 // Set view result
                 filterContext.Result = new ViewResult
