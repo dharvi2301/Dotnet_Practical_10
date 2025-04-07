@@ -34,7 +34,7 @@ This project demonstrates various types of **Action Results** available in ASP.N
 ---
 
 ## 📂 Project Structure
-/Controllers └── DemoController.cs /Views └── /Demo ├── Index.cshtml ├── CustomView.cshtml └── _PartialDemo.cshtml
+/Controllers └── DemoController.cs /Views └── /Demo ├── Index.cshtml ├── CustomView.cshtml 
 
 
 ---
@@ -105,6 +105,27 @@ The `Index.cshtml` view provides links to all action methods. Each one demonstra
 
 ## View Result
 ![image](https://github.com/user-attachments/assets/fb2ee979-b0c8-404a-b387-71ce04da529b)
+
+# Test 3 - OutputCache Demo - ASP.NET MVC
+
+This project demonstrates the use of the `OutputCache` filter in an ASP.NET MVC application. The output of a controller action is cached for **5 minutes**, and the action returns the **current date and time** as a string.
+
+## 🧪 Objective
+
+Showcase how the `OutputCache` attribute can cache the result of an action method to improve performance and reduce server load.
+
+## 🔧 Technologies Used
+
+- ASP.NET MVC (.NET Framework)
+- C#
+- Razor Views (optional)
+- Visual Studio
+
+## 🚀 How It Works
+
+The action method `Now()` in `HomeController` returns the current server time as a string. The `[OutputCache]` attribute caches this output for 5 minutes (300 seconds).
+
+
 
 
 
