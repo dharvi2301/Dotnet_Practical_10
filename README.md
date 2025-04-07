@@ -125,6 +125,11 @@ Showcase how the `OutputCache` attribute can cache the result of an action metho
 
 The action method `Now()` in `HomeController` returns the current server time as a string. The `[OutputCache]` attribute caches this output for 5 minutes (300 seconds).
 
+## The below ss is when i started my project along with system time
+![image](https://github.com/user-attachments/assets/6c1e6eea-b49b-4ea7-9b6e-4889458089de) ![image](https://github.com/user-attachments/assets/02ae8572-b51e-45ac-b7be-2952f6cb7c9b)
+
+
+
 
 
 
